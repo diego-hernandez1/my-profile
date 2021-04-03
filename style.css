@@ -1,0 +1,135 @@
+body {
+  background-color: #FAEDCA;
+  color: #6F550B;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 2;
+}
+
+h1, h2 {
+  font-family: Verdana;
+  color: orange;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+  transition: color 0.7s ease;
+}
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .img-small {
+    width: 200px;
+  }
+}
+
+.card-beige {
+  background-color: #F5DA8F;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-orange {
+  background-color: orange;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  transition: background-color 0.4s ease;
+}
+
+.btn-orange:hover {
+  background-color: #8F5800;
+  color: #F5F5F5;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  transition: color 0.4s ease;
+}
+
+.img-clear:hover {
+  opacity: 0.5;
+  transition: opacity 0.7s ease;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+#instagram {
+  color: #D74761;;
+}
+
+#instagram:hover {
+  color: #972137;
+}
+
+#facebook {
+  color: #4267B2;
+}
+
+#facebook:hover {
+  color: #273C68;
+}
+
+#linkedin {
+  color: #0072b1;
+}
+
+#linkedin:hover {
+  color: #003552;
+}
+
+
+
+
+
+
+
+
